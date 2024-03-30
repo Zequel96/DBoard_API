@@ -137,3 +137,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://universe-api-b3bv.onrender.com",
 ]
+
+CORS_ORIGIN_WHITELIST = [
+    'https://universe-steel.vercel.app',
+]
+
