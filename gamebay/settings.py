@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-!r8!4x7e(swl9u1cz1fnmr*j34nptspcyn$vp)(!g$kurtc^hl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "universe-api-b3bv.onrender.com",
+]
 
 
 # Application definition
@@ -134,5 +136,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://universe-api-b3bv.onrender.com",
-    "universe-api-b3bv.onrender.com",
 ]
